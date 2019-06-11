@@ -8,14 +8,37 @@
 
 import SwiftUI
 
-struct ContentView : View {
+struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        VStack {
+            HStack {
+                // target color block
+                VStack {
+                    Rectangle()
+                    Text("match this color")
+                }
+                // guess color block
+                VStack {
+                    Rectangle()
+                    HStack {
+                        Text("r")
+                        Text("g")
+                        Text("b")
+                    }
+                }
+            }
+            Text("Hit me button")
+            VStack {
+                Text("Red slider")
+                Text("green slider")
+                Text("blue slider")
+            }
+        }
     }
 }
 
 #if DEBUG
-struct ContentView_Previews : PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
