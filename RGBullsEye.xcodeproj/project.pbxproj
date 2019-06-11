@@ -13,6 +13,7 @@
 		258FE94C22B03758002A2710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 258FE94B22B03758002A2710 /* Assets.xcassets */; };
 		258FE94F22B03758002A2710 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 258FE94E22B03758002A2710 /* Preview Assets.xcassets */; };
 		258FE95222B03758002A2710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 258FE95022B03758002A2710 /* LaunchScreen.storyboard */; };
+		258FE95B22B043B6002A2710 /* rgbullseye.gif in Resources */ = {isa = PBXBuildFile; fileRef = 258FE95A22B043B6002A2710 /* rgbullseye.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		258FE94E22B03758002A2710 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		258FE95122B03758002A2710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		258FE95322B03758002A2710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		258FE95922B03FF4002A2710 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		258FE95A22B043B6002A2710 /* rgbullseye.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rgbullseye.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,8 +43,10 @@
 		258FE93922B03755002A2710 = {
 			isa = PBXGroup;
 			children = (
+				258FE95922B03FF4002A2710 /* README.md */,
 				258FE94422B03755002A2710 /* RGBullsEye */,
 				258FE94322B03755002A2710 /* Products */,
+				258FE95A22B043B6002A2710 /* rgbullseye.gif */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				258FE95B22B043B6002A2710 /* rgbullseye.gif in Resources */,
 				258FE95222B03758002A2710 /* LaunchScreen.storyboard in Resources */,
 				258FE94F22B03758002A2710 /* Preview Assets.xcassets in Resources */,
 				258FE94C22B03758002A2710 /* Assets.xcassets in Resources */,
